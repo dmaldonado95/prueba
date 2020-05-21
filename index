@@ -1,6 +1,6 @@
 <?php
-$serverName = "TPCV359-268.teleperformance.co\SQL2016DEV,5082"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"TPCLCODESAAIMIberoLatam", "UID"=>"usrDESAAIMIberoLatam", "PWD"=>"1DESAAIMIberoLatam*");
+$serverName = "server"; //serverName\instanceName
+$connectionInfo = array( "Database"=>"database", "UID"=>"user", "PWD"=>"pass*");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $conn ) {
